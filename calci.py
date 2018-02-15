@@ -19,7 +19,10 @@ elif (num==2):
 elif (num==3):
     print(multiple(n1,n2))
 elif (num==4):
-    print(divide(n1,n2))
+    if (n2==0):
+        print("infinity")
+    else:
+        print(divide(n1,n2))
 elif (num==5):
     print(power(n1,n2))
 else:
