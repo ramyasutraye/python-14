@@ -1,9 +1,7 @@
-n=int(input("Enter the number:"))
-if(n<1 or (n%1)!=0):
-    print("wrong input")
-else:
-    temp=0
-    while(n!=0):
-        temp=temp+n
-        n=n-1
-    print (temp)
+number_array = list()
+number = input("Enter the number of elements you want:")
+print ('Enter numbers in array: ')
+for i in range(int(number)):
+    n = input("number :")
+    number_array.append(int(n))
+    print ('ARRAY: ',number_array)
