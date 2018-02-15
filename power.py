@@ -1,3 +1,4 @@
 n=int(input("enter the num:"))
-n=n**3
-print (n)
+s=int(input("enter the power value:"))
+m=n**s
+print (m)
