@@ -6,7 +6,6 @@ while(n>0):
     rev=rev*10+num
     n=n//10
 if(temp==rev):
-    print("The number is a palindrome")
+    print(temp," is a palindrome")
 else:
-    print("The number isn't a palindrome")
-
+    print(temp," isn't a palindrome")
