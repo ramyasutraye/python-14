@@ -5,7 +5,7 @@ if num > 1:
        if (num % i) == 0:
            print(num,"is not a prime number")
            print(i,"times",num//i,"is",num)
-            break
+           break
    else:
        print(num,"is a prime number")
 
