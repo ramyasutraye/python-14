@@ -1,0 +1,12 @@
+num=int(input("enter the array size:"))
+n=[int(a) for a in input("enter the array elements;").split()]
+print(n)
+s=n[0:3]
+print(s)
+m=n[3:5]
+print(m)
+print(len)
+if s/2==2:
+    print("yes")
+else:
+    print("no")
