@@ -1,0 +1,6 @@
+a=int(input("enter the num:"))
+b=int(input("enter the second num:"))
+c=int(input("enter the another new num:"))
+d=int(input("enter the fourth num:"))
+print(b//a)
+print(d/c)
